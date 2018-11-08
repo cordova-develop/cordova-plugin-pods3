@@ -18,7 +18,7 @@
       <pods use-frameworks="true">
         <pod name="AFNetworking" spec="~> 3.2" />
         <pod name="SDWebImage" spec="~> 4.0" configurations="Debug" />
-        <pod name="Eureka" swift-version="3.3" />
+        <pod name="Eureka" spec="4.2.0" swift-version="4.0" />
         <pod name="AcknowList" configurations="Debug, Release" />
         <pod name="Brightcove-Player-Core" spec="~> 6.3.4" />
         <!--
