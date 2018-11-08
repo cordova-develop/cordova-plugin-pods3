@@ -12,15 +12,21 @@
   <platform name="ios">
     <podspec>
       <config>
-        <source url="https://github.com/brightcove/BrightcoveSpecs.git" />
+        <source url="https://github.com/shahabejaz/folio3-specs.git" />
         <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
       <pods use-frameworks="true">
+        <pod name="FLCommonLibrary" spec="~> 1.0.1" />
         <pod name="AFNetworking" spec="~> 3.2" />
         <pod name="SDWebImage" spec="~> 4.0" configurations="Debug" />
         <pod name="Eureka" spec="4.2.0" swift-version="4.0" />
         <pod name="AcknowList" configurations="Debug, Release" />
+        <!--
+        <pod name="Brightcove-Player-SDK" spec="~> 5.3.4" />
+        -->
+        <!--
         <pod name="Brightcove-Player-Core" spec="~> 6.3.4" />
+        -->
         <!--
         <pod name="Foobar1" git="git@github.com:hoge/foobar1.git" />
         <pod name="Foobar2" git="git@github.com:hoge/foobar2.git" branch="next" />
