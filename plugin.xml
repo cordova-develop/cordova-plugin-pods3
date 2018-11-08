@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-pods3" version="0.0.1" >
+
+  <name>CordovaPluginPods3</name>
+  <description>CordovaPlugin for Cocoapods sample 3</description>
+  <author>Ken Naito</author>
+  <license>MIT</license>
+  <engines>
+    <engine name="cordova" version=">=6.5.0" />
+  </engines>
+
+  <platform name="ios">
+    <podspec>
+      <config>
+        <source url="https://github.com/brightcove/BrightcoveSpecs.git" />
+        <source url="https://github.com/CocoaPods/Specs.git"/>
+      </config>
+      <pods use-frameworks="true">
+        <pod name="AFNetworking" spec="~> 3.2" />
+        <pod name="SDWebImage" spec="~> 4.0" configurations="Debug" />
+        <pod name="Eureka" swift-version="3.3" />
+        <pod name="AcknowList" configurations="Debug, Release" />
+        <pod name="Brightcove-Player-Core" spec="~> 6.3.4" />
+        <!--
+        <pod name="Foobar1" git="git@github.com:hoge/foobar1.git" />
+        <pod name="Foobar2" git="git@github.com:hoge/foobar2.git" branch="next" />
+        <pod name="FoobarSwift" swift-version="4.1" />
+        -->
+      </pods>
+    </podspec>
+  </platform>
+
+</plugin>
