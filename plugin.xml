@@ -12,6 +12,9 @@
   <platform name="ios">
     <podspec>
       <config>
+        <!--  
+        <source url="https://github.com/brightcove/BrightcoveSpecs.git" />
+        -->
         <source url="https://github.com/shahabejaz/folio3-specs.git" />
         <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
